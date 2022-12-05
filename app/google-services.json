@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "894302674377",
+    "project_id": "bd-tp2-45a5d",
+    "storage_bucket": "bd-tp2-45a5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894302674377:android:9bee45acfd174b2411dc18",
+        "android_client_info": {
+          "package_name": "com.example.tp2sifmarchane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894302674377-nufot3ef7kklrgv87q7v5mqgiquecmr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFDgR_fZ6TbH5eHVPu5HJ9nKYWK9rKD9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894302674377-nufot3ef7kklrgv87q7v5mqgiquecmr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
