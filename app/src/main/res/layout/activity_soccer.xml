@@ -28,4 +28,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvSoccer" />
+
+    <Button
+        android:id="@+id/btnAfficherJoueur"
+        android:layout_width="283dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="40dp"
+        android:text="Afficher les joueurs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAjouterJoueur" />
 </androidx.constraintlayout.widget.ConstraintLayout>

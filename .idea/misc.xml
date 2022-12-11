@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Sif/AndroidStudioProjects/Tp2SifMarchane/app/src/main/res/layout/activity_affichage_joueur.xml" value="0.8822055137844611" />
         <entry key="..\:/Users/Sif/AndroidStudioProjects/Tp2SifMarchane/app/src/main/res/layout/activity_ajout_joueur.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Sif/AndroidStudioProjects/Tp2SifMarchane/app/src/main/res/layout/activity_connexion.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Sif/AndroidStudioProjects/Tp2SifMarchane/app/src/main/res/layout/activity_gestion_profil.xml" value="0.36666666666666664" />

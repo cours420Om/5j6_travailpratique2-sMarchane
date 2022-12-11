@@ -10,6 +10,7 @@ import android.widget.Button;
 public class SoccerActivity extends AppCompatActivity {
 
     Button btn_Ajout;
+    Button btn_affichage;
 
 
     @Override
@@ -18,7 +19,7 @@ public class SoccerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_soccer);
 
         btn_Ajout = findViewById(R.id.btnAjouterJoueur);
-
+        btn_affichage = findViewById(R.id.btnAfficherJoueur);
 
         btn_Ajout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,6 +28,14 @@ public class SoccerActivity extends AppCompatActivity {
                 startActivity(intention);
                 finish();
 
+            }
+        });
+        btn_affichage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intention = new Intent(SoccerActivity.this, AffichageJoueurActivity.class);
+                startActivity(intention);
+                finish();
             }
         });
     }

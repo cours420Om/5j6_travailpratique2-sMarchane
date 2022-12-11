@@ -53,11 +53,7 @@ public class utilisateur {
 
     @Override
     public String toString() {
-        return "utilisateur{" +
-                "nom='" + nom + '\'' +
-                ", age='" + age + '\'' +
-                ", position='" + position + '\'' +
-                ", nationalite='" + nationalite + '\'' +
-                '}';
+        return nom;
     }
+
 }
