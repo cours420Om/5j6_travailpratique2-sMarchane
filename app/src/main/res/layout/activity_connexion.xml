@@ -21,12 +21,36 @@
         android:id="@+id/btnDeconnexion"
         android:layout_width="335dp"
         android:layout_height="42dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="80dp"
         android:text="Déconnexion"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvBienConnecté"
+        app:layout_constraintTop_toBottomOf="@+id/tvBienConnecté" />
+
+    <Button
+        android:id="@+id/btnGestionProfil"
+        android:layout_width="330dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="44dp"
+        android:text="Gestion du profil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDeconnexion"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnApplication"
+        android:layout_width="326dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="44dp"
+        android:text="Début Soccer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGestionProfil"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

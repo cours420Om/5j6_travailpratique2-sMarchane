@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SoccerActivity">
+
+    <TextView
+        android:id="@+id/tvSoccer"
+        android:layout_width="209dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="60dp"
+        android:text="Soccer"
+        android:textColor="#FF5722"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAjouterJoueur"
+        android:layout_width="284dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="256dp"
+        android:text="Ajouter un joueur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSoccer" />
+</androidx.constraintlayout.widget.ConstraintLayout>

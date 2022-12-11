@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                                             FirebaseUser usager = bdAuth.getCurrentUser();
 
                                             if(usager != null){
-                                                Intent intention = new Intent(MainActivity.this, LoginActivity.class);
+                                                Intent intention = new Intent(MainActivity.this, ConnexionActivity.class);
                                                 startActivity(intention);
                                                 finish();
                                             }
