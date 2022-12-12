@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -51,8 +52,25 @@ public class MiseAJourActivity extends AppCompatActivity {
         getUtilisateur = b_rep.getParcelable("liste");
         Log.i("Test", String.valueOf(getUtilisateur));
 
-        //et_nom.setText(String.valueOf(getUtilisateur.getNom()));
+        et_nom.setText(String.valueOf(getUtilisateur.getNom()));
+        et_age.setText(String.valueOf(getUtilisateur.getAge()));
+        et_position.setText(String.valueOf(getUtilisateur.getPosition()));
+        et_nationalite.setText(String.valueOf(getUtilisateur.getNationalite()));
 
+        binding.btnSaveMiseAJour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(!et_nom.getText().toString().isEmpty() && !et_age.getText().toString().isEmpty() && !et_position.getText().toString().isEmpty()
+                    && !et_nationalite.getText().toString().isEmpty()){
+
+                    majDonnees(et_nom.getText().toString(), et_age.getText().toString(), et_position.getText().toString(), et_nationalite.getText().toString());
+
+                }
+
+
+
+            }
+        });
 
 
     }
