@@ -18,6 +18,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".MiseAJourActivity"
+            android:exported="false" />
+        <activity
             android:name=".AffichageJoueurActivity"
             android:exported="false" />
         <activity
